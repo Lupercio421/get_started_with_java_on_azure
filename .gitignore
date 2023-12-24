@@ -33,3 +33,5 @@ build/
 .vscode/
 
 /env_commands.txt
+
+/application.properties
