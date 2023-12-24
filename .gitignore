@@ -32,4 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 
-env_commands.txt
+/env_commands.txt
