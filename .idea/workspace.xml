@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbdd4187-05b7-46a5-9c7e-950a77459d6e" name="Changes" comment="attempting to ignore the properties file with wildcard">
+      <change beforePath="$PROJECT_DIR$/azure-spring-workshop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/azure-spring-workshop/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Lupercio421"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8d11c5bf-b659-4c7d-9cc7-bdbf23123818" />
+        <option name="url" value="https://github.com/Lupercio421/get_started_with_java_on_azure.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ZukLBeyJZkjR8HnirQ6OBx81rl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;deploy__a__spring__boot__app__to__azure__app__service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel/Downloads/ignore-4.5.2/.ignore/lib/instrumented-idea-gitignore-4.5.2.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbdd4187-05b7-46a5-9c7e-950a77459d6e" name="Changes" comment="" />
+      <created>1703279293317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703279293317</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ADDING the gitigore file to the project">
+      <option name="closed" value="true" />
+      <created>1703282789153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703282789153</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Todo Entity class">
+      <option name="closed" value="true" />
+      <created>1703447195886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447195886</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SpringFramework TodoController">
+      <option name="closed" value="true" />
+      <created>1703447227399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447227399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Repository extending JpaRespository">
+      <option name="closed" value="true" />
+      <created>1703447347118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447347118</updated>
+    </task>
+    <task id="LOCAL-00005" summary="application properties used for azure app service">
+      <option name="closed" value="true" />
+      <created>1703447441898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447441898</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modifying the &lt;parent&gt; tag after the default azure provided one did not work">
+      <option name="closed" value="true" />
+      <created>1703447500003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447500003</updated>
+    </task>
+    <task id="LOCAL-00007" summary="default files from Spring Initializer and project">
+      <option name="closed" value="true" />
+      <created>1703447555013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447555013</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modifying the gitignore file one more time">
+      <option name="closed" value="true" />
+      <created>1703447572090</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447572090</updated>
+    </task>
+    <task id="LOCAL-00009" summary="trying to ignore the env_commands.txt file">
+      <option name="closed" value="true" />
+      <created>1703447939542</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703447939542</updated>
+    </task>
+    <task id="LOCAL-00010" summary="trying to ignore the properties file">
+      <option name="closed" value="true" />
+      <created>1703448144183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703448144183</updated>
+    </task>
+    <task id="LOCAL-00011" summary="trying to ignore the properties file">
+      <option name="closed" value="true" />
+      <created>1703448209525</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703448209525</updated>
+    </task>
+    <task id="LOCAL-00012" summary="trying to ignore the properties file and commands file">
+      <option name="closed" value="true" />
+      <created>1703448324292</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703448324292</updated>
+    </task>
+    <task id="LOCAL-00013" summary="attempting to ignore the properties file from the repo">
+      <option name="closed" value="true" />
+      <created>1703448594499</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703448594499</updated>
+    </task>
+    <task id="LOCAL-00014" summary="attempting to ignore the properties file from the repo">
+      <option name="closed" value="true" />
+      <created>1703449206339</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703449206339</updated>
+    </task>
+    <task id="LOCAL-00015" summary="attempting to ignore the properties file with wildcard">
+      <option name="closed" value="true" />
+      <created>1703449458064</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703449458064</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADDING the gitigore file to the project" />
+    <MESSAGE value="Todo Entity class" />
+    <MESSAGE value="SpringFramework TodoController" />
+    <MESSAGE value="Repository extending JpaRespository" />
+    <MESSAGE value="application properties used for azure app service" />
+    <MESSAGE value="modifying the &lt;parent&gt; tag after the default azure provided one did not work" />
+    <MESSAGE value="default files from Spring Initializer and project" />
+    <MESSAGE value="modifying the gitignore file one more time" />
+    <MESSAGE value="trying to ignore the env_commands.txt file" />
+    <MESSAGE value="trying to ignore the properties file" />
+    <MESSAGE value="trying to ignore the properties file and commands file" />
+    <MESSAGE value="attempting to ignore the properties file from the repo" />
+    <MESSAGE value="attempting to ignore the properties file with wildcard" />
+    <option name="LAST_COMMIT_MESSAGE" value="attempting to ignore the properties file with wildcard" />
+  </component>
+</project>
