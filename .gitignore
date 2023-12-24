@@ -34,4 +34,4 @@ build/
 
 /env_commands.txt
 
-/application.properties
+azure-spring-workshop/src/main/resources/application.properties
