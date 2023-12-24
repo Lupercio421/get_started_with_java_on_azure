@@ -30,6 +30,6 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+.vscode
 
-azure-spring-workshop/src/main/resources/application.properties
+*.properties
