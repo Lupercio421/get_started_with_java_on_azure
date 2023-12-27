@@ -6,6 +6,8 @@
 
 todo/src/main/resources/application.properties
 
+todo/src/main/resources/META-INF/resources/index.html
+
 ### Eclipse ###
 .metadata
 bin/
