@@ -1,4 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+*/local.settings.json
+
 ### Gradle template
 .gradle
 build/
