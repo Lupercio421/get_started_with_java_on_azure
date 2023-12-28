@@ -155,7 +155,7 @@ az spring app logs --name todo-service --service "$SPRING_CLOUD_NAME" --resource
 Contrary to the instruction in the lesson, the Registration status in my Azure Spring Apps Instance says 1/1
 
 ```
-curl https://primary:0qtkTVf7gC9oXfZ2V2aIg9N1JfWxu1mVSjKUFdhOFDYIuuaxEyuecf2EJ1kXm19p@azure-spring-cloud-workshop-dl.test.azuremicroservices.io/todo-service/default/
+curl https://~@azure-spring-cloud-workshop-dl.test.azuremicroservices.io/todo-service/default/
 ```
 
 ```
