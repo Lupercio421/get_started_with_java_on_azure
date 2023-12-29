@@ -20,7 +20,7 @@ az account set --subscription "bbafc323-7813-419f-87a2-e17b65802a51"
 ### Define local variables
 
 ```Bash
-AZ_RESOURCE_GROUP=javacontainerizationdemorg
+AZ_RESOURCE_GROUP=MC_javacontainerizationdemorg_javacontainerizationdemoaks_eastus
 AZ_CONTAINER_REGISTRY=loopydanjavacontainerregistry
 AZ_KUBERNETES_CLUSTER=javacontainerizationdemoaks
 AZ_LOCATION=eastus
@@ -74,10 +74,108 @@ But I get this error instead.
 inimum) New Limit Required: 6.
 ```
 
-I manually added the resource myself on the Azure portal. 
+I did check the resource group on the azure portal and the aks service was created.
 
 ## Containerize a Java app!
 
 
 ### Clone the Java Application
 
+```Bash
+git clone https://github.com/Azure-Samples/containerize-and-deploy-Java-app-to-Azure.git
+```
+
+```Bash
+cd containerize-and-deploy-Java-app-to-Azure/Project/Airlines
+```
+```Bash
+mvn clean install
+```
+
+### Construct a Dockerfile
+
+I don't like to use VIM, so I would not run this command next time.
+```Bash
+vi Dockerfile
+```
+
+## Build and run a container image for the Java app
+
+```Bash
+docker build -t flightbookingsystemsample .
+```
+
+```Bash
+docker image ls
+```
+
+```Bash
+docker run -p 8080:8080 flightbookingsystemsample
+```
+
+## Push the container image to Azure Container Registry
+
+### Push a container image
+
+```Bash
+docker tag flightbookingsystemsample $AZ_CONTAINER_REGISTRY.azurecr.io/flightbookingsystemsample
+```
+
+```Bash
+docker push $AZ_CONTAINER_REGISTRY.azurecr.io/flightbookingsystemsample
+```
+
+```Bash
+az acr repository show -n $AZ_CONTAINER_REGISTRY --image flightbookingsystemsample:latest
+```
+
+```text
+{
+  "changeableAttributes": {
+    "deleteEnabled": true,
+    "listEnabled": true,
+    "readEnabled": true,
+    "writeEnabled": true
+  },
+  "createdTime": "2023-12-29T21:59:01.4350853Z",
+  "digest": "sha256:3c8b55409ae47c511d370bca1c5957171c1b16a3e45dd34c804eb7590259ea63",
+  "lastUpdateTime": "2023-12-29T21:59:01.4350853Z",
+  "name": "latest",
+  "signed": false
+}
+```
+
+## Deploy the container image to Azure Kubernetes Service
+
+### Deploy a container image
+
+Install kubectl locally
+```Bash
+az aks install-cli
+```
+```Bash
+az aks get-credentials --resource-group $AZ_RESOURCE_GROUP --name $AZ_KUBERNETES_CLUSTER
+```
+```text
+Merged "javacontainerizationdemoaks" as current context in C:\Users\Daniel\.kube\config
+```
+
+Change directories into Project\Airlines
+```Bash
+kubectl apply -f deployment.yml
+```
+```text
+deployment.apps/flightbookingsystemsample created
+service/flightbookingsystemsample created
+```
+
+Use kubectl to monitor the status of the deployment
+```Bash
+kubectl get all
+```
+
+You can view the app logs within each pod as well
+
+```Bash
+kubectl logs pod/flightbookingsystemsample-5bfc8cc545-hllgg 
+```
