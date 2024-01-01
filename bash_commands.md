@@ -225,6 +225,8 @@ Git\\/temperatureStatus' could not be accepted, failed near position '0'. Partit
  a trailing slash or wildcard character.\"]}\
 ```
 
+As an alternative, I went onto Cosmos DB instance in the Azure portal, and created the container instance manually.
+
 ## Build, configure, and deploy another Azure function
 
 For our scenario, you'll create one consuming Azure function as an example. To create the function, following best practices, it will be independent, with its own storage account and bindings for loose coupling and scalability.
